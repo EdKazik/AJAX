@@ -21,7 +21,6 @@ fetch('http://api.openweathermap.org/data/2.5/weather?q=ODESSA&units=metric&APPI
         
         const icon = `http://openweathermap.org/img/w/${iconValue}.png`
         
-
         const newDiv = document.createElement('div')
         newDiv.setAttribute('class', 'new__div')
         document.body.insertBefore(newDiv, document.querySelector('script'))
